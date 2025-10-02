@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Quiz Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Simple Quiz Game</h1>
+    <p class="lead">
+      You will be asked 3 short questions (one-word answers). You get up to 3 tries per question.
+      First try = 3 points, second = 2, third = 1.
+    </p>
+
+    <div class="controls">
+      <button id="startBtn">Start Quiz</button>
+      <button id="resetBtn" type="button">Reset Score</button>
+    </div>
+
+    <div id="scoreBox" class="score">
+      Your final score: <strong id="result">0</strong>
+    </div>
+  </main>
+
+  <!-- link external JS -->
+  <script src="quiz.js"></script>
+</body>
+</html>
